@@ -14,6 +14,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Environment Variables
+        run: env
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: "temurin"
+          java-version: 21
       - name: Publish mod to CurseForge and Modrinth
         id: publish
         uses: Kir-Antipov/mc-publish@v3.3.0
@@ -26,7 +39,7 @@ jobs:
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.VERSION}}"
           version-type: release
-          changelog-file: BETA_CHANGELOG.md
+          changelog-file: CHANGELOG.md
 
           loaders: |
             neoforge
@@ -57,7 +70,7 @@ jobs:
              "embeds": [
               {
               "id": 314831325,
-              "description": BETA_CHANGELOG.md,
+              "description": CHANGELOG.md,
               "url": "https://discord.gg/PjYQVupmhQ",
               "color": 11181311,
               "footer": {
