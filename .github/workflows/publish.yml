@@ -32,7 +32,7 @@ jobs:
         with:
           args: "<@&1195647504730050670>"
         env:
-          DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1304462505086550056/kLZ6dwXxBT7EKHSaBr24hoo1-Mq5wZTvD9-eq0QMYbPqg8csBtTq0CxIttINZw4tPo52"
+          DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1304462505086550056/kLZ6dwXxBT7EKHSaBr24hoo1-Mq5wZTvD9-eq0QMYbPqg8csBtTq0CxIttINZw4tPo52/github"
           DISCORD_EMBEDS: |
             [{
              "content": "<@&1336114821531172866>",
@@ -40,8 +40,7 @@ jobs:
              "embeds": [
               {
               "id": 314831325,
-              "description": "### [Keepers of the Stones II 1.1.0.3 Beta for Minecraft 1.21.1 Released](https://modrinth.com/mod/keepers-of-the-stones-2/version/e6GH3Dm7)\n\n>>> **New features:**\n- *N/A*\n\n**Improvemnts:**\n- Star points will now not be restored when the power lock effect is active\n- The mod's game rules have been removed, with all their functionality moved to the config\n\n**API changes:**\n- Colorful Powers API has been updated to version 23\n- Removed the lines in the config that control the duration of the stones and their recharge\n- The mod's game rules have been removed, with all their functionality moved to the config\n- Removed variable ``golden_dust_extended_powers``\n- Removed variable ``allow_custom_element_powers_for_stones``\n\n**Bugfixes:**\n- [Bugfix] Fixed a bug that caused star regeneration potion to not speed up the recovery of star points\n- [Bugfix] Fixed a bug that caused cursed keeper to appear with 350 hp instead of 700 hp\n\n**Known issues:**\n- *N/A*",
-
+              "description": "CHANGELOG.md",
               "url": "https://discord.gg/PjYQVupmhQ",
               "color": 11181311,
               "footer": {
