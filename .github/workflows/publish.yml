@@ -60,9 +60,8 @@ jobs:
                 "value": "<:curseforge:1337067682750664725> **[CurseForge](https://www.curseforge.com/minecraft/mc-mods/keepers-of-the-stones-ii)**\n<:Modrinth:1337067684554346506> **[Modrinth](https://modrinth.com/mod/keepers-of-the-stones-2)**",
                 "inline": false
                   }
-                  ]
                   }
-                  ],
+                  ]
                "components": [],
                "actions": {},
                "username": "Auranite",
