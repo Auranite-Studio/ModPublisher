@@ -6,7 +6,7 @@ name: Beta
 on:
   push:
     branches:
-      - "publish"
+      - "main"
 env:
   MINECRAFT_VERSION: 1.21.1
   JAVA_VERSION: 21
