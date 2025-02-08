@@ -40,7 +40,7 @@ jobs:
              "embeds": [
               {
               "id": 314831325,
-              "description": "F",
+              "description": CHANGELOG.md,
               "url": "https://discord.gg/PjYQVupmhQ",
               "color": 11181311,
               "footer": {
@@ -67,4 +67,4 @@ jobs:
                "actions": {},
                "username": "Auranite",
                "avatar_url": "https://message.style/cdn/images/c975df3dae6904b5008e441df0967c60d7ad89bdcdfa77ce984a0cacfea418b1.png"
-                  }]]
+                  }]
