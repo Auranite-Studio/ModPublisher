@@ -40,7 +40,7 @@ jobs:
              "embeds": [
               {
               "id": 314831325,
-              "description": CHANGELOG.md,
+              "description": "CHANGELOG.md",
               "url": "https://discord.gg/PjYQVupmhQ",
               "color": 11181311,
               "footer": {
