@@ -35,36 +35,36 @@ jobs:
           DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1304462505086550056/kLZ6dwXxBT7EKHSaBr24hoo1-Mq5wZTvD9-eq0QMYbPqg8csBtTq0CxIttINZw4tPo52"
           DISCORD_EMBEDS: |
             [{
-  "content": "<@&1336114821531172866>",
-  "tts": false,
-  "embeds": [
-    {
-      "id": 314831325,
-      "description": CHANGELOG.md,
-      "url": "https://discord.gg/PjYQVupmhQ",
-      "color": 11181311,
-      "footer": {
-        "text": "Created by the Auranite Studio",
-        "icon_url": "https://message.style/cdn/images/b94fe4de7610d6066d7e3e504c3310b01c65fbd6549d80ab7e64f16940fa36db.png"
-      },
-      "image": {
-        "url": "https://message.style/cdn/images/90a2134105ce90eb548541bc22129b7d2766d7a83877d56622c345d73fa6863e.png"
-      },
-      "thumbnail": {
-        "url": "https://cdn.modrinth.com/data/hKbKT6ME/837687d214b46e7f39c25a7fc4717c2029a65bec_96.webp"
-      },
-      "fields": [
-        {
-          "id": 464359436,
-          "name": "Download now:",
-          "value": "<:curseforge:1337067682750664725> **[CurseForge](https://www.curseforge.com/minecraft/mc-mods/keepers-of-the-stones-ii)**\n<:Modrinth:1337067684554346506> **[Modrinth](https://modrinth.com/mod/keepers-of-the-stones-2)**",
-          "inline": false
-        }
-      ]
-    }
-  ],
-  "components": [],
-  "actions": {},
-  "username": "Auranite",
-  "avatar_url": "https://message.style/cdn/images/c975df3dae6904b5008e441df0967c60d7ad89bdcdfa77ce984a0cacfea418b1.png"
-}]
+             "content": "<@&1336114821531172866>",
+             "tts": false,
+             "embeds": [
+              {
+              "id": 314831325,
+              "description": "F",
+              "url": "https://discord.gg/PjYQVupmhQ",
+              "color": 11181311,
+              "footer": {
+              "text": "Created by the Auranite Studio",
+              "icon_url": "https://message.style/cdn/images/b94fe4de7610d6066d7e3e504c3310b01c65fbd6549d80ab7e64f16940fa36db.png"
+               },
+               "image": {
+                 "url": "https://message.style/cdn/images/90a2134105ce90eb548541bc22129b7d2766d7a83877d56622c345d73fa6863e.png"
+                 },
+             "thumbnail": {
+                 "url": "https://cdn.modrinth.com/data/hKbKT6ME/837687d214b46e7f39c25a7fc4717c2029a65bec_96.webp"
+                 },
+              "fields": [
+                 {
+                 "id": 464359436,
+                 "name": "Download now:",
+                "value": "<:curseforge:1337067682750664725> **[CurseForge](https://www.curseforge.com/minecraft/mc-mods/keepers-of-the-stones-ii)**\n<:Modrinth:1337067684554346506> **[Modrinth](https://modrinth.com/mod/keepers-of-the-stones-2)**",
+                "inline": false
+                  }
+                  ]
+                  }
+                  ],
+               "components": [],
+               "actions": {},
+               "username": "Auranite",
+               "avatar_url": "https://message.style/cdn/images/c975df3dae6904b5008e441df0967c60d7ad89bdcdfa77ce984a0cacfea418b1.png"
+                  }]]
