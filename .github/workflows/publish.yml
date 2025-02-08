@@ -32,7 +32,7 @@ jobs:
         with:
           args: "<@&1195647504730050670>"
         env:
-          DISCORD_WEBHOOK: https://discord.com/api/webhooks/1304462505086550056/kLZ6dwXxBT7EKHSaBr24hoo1-Mq5wZTvD9-eq0QMYbPqg8csBtTq0CxIttINZw4tPo52/github,
+          DISCORD_WEBHOOK: "${{secrets.DISCORD_WEBHOOK2}}",
           DISCORD_EMBEDS: |
             [{
              "content": "<@&1336114821531172866>",
