@@ -29,8 +29,6 @@ jobs:
           java-version: 21
       - name: Send Discord webhook
         uses: Ilshidur/action-discord@0.3.2
-        with:
-          args: "<@&1195647504730050670>"
         env:
           DISCORD_WEBHOOK: "${{secrets.DISCORD_WEBHOOK2}}",
           DISCORD_EMBEDS: |
