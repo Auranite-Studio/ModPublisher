@@ -26,7 +26,7 @@ jobs:
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.VERSION}}"
           version-type: release
-          changelog-file: CHANGELOG.md
+          changelog-file: BETA_CHANGELOG.md
 
           loaders: |
             neoforge
@@ -57,7 +57,7 @@ jobs:
              "embeds": [
               {
               "id": 314831325,
-              "description": CHANGELOG.md,
+              "description": BETA_CHANGELOG.md,
               "url": "https://discord.gg/PjYQVupmhQ",
               "color": 11181311,
               "footer": {
